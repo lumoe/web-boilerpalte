@@ -1,0 +1,32 @@
+{
+  "title": "boiler.plate",
+  "name": "boiler.plate",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node_modules/.bin/gulp watch"
+  },
+  "description": "Website for boiler.plate",
+  "homepage": "https://boiler.plate",
+  "license": "MIT",
+  "author": "Lukas Mölschl",
+  "contributors": [],
+  "dependencies": {
+    "bootstrap": "4.4.1",
+    "gulp-htmlmin": "^5.0.1",
+    "hammerjs": "^2.0.8",
+    "jquery": "3.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "browser-sync": "2.26.7",
+    "compass-sass-mixins": "^0.12.7",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "merge-stream": "2.0.0"
+  }
+}

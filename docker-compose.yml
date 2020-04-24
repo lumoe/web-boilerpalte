@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+    website:
+        build: .
+        environment:
+            VIRTUAL_HOST: your.host, www.your.host
+            LETSENCRYPT_HOST: your.host, www.your.host
+            LETSENCRYPT_EMAIL: your@ema.il
+
+networks:
+    default:
+        external:
+            name: webproxy
