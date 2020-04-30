@@ -14,7 +14,7 @@
     "bootstrap": "4.4.1",
     "gulp-htmlmin": "^5.0.1",
     "hammerjs": "^2.0.8",
-    "jquery": "3.4.1"
+    "jquery": "3.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
